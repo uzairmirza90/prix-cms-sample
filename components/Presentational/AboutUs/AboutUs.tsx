@@ -30,7 +30,7 @@ const AboutUs: React.FC<AboutUs> = ({
         <span style={{ color: '#63AC45' }}>{header.slice(5, 9)}</span>
       </Typography>
 
-      <Typography fontWeight={500}>{heading}</Typography>
+      <Typography fontWeight={500}>{heading}s</Typography>
 
       <Divider className="about-us-divider" />
       <Typography className="description">{description}</Typography>
