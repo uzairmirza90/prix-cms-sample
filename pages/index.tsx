@@ -55,7 +55,10 @@ export default function Home({ blogs, services, testimonials }: MDContent) {
         <title>{title}</title>
         <meta name="prixite" content="Prixte" />
         <link rel="icon" href="/favicon.ico" />
-        <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        <script
+          defer
+          src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+        ></script>
       </Head>
       <div className="home-page-container">
         <Container maxWidth="xl">
@@ -174,6 +177,19 @@ export default function Home({ blogs, services, testimonials }: MDContent) {
             <Subscribe />
           </Container>
         )}
+        {/* <script>
+  if (typeof window !== undefined && window.netlifyIdentity) {
+    // eslint-disable-next-line  @typescript-eslint/no-explicit-any
+    (window as any).netlifyIdentity.on("init", function(user: any) { 
+      if (!user) {
+        // eslint-disable-next-line  @typescript-eslint/no-explicit-any
+        (window as any).netlifyIdentity.on("login", function() {
+          document.location.href = "/admin/";
+        });
+      }
+    })
+  }
+</script> */}
       </div>
     </>
   )
