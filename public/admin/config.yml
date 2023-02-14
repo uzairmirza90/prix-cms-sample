@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: uzairmirza90/prix-cms-sample
   branch: main # Branch to update (optional; defaults to master)
 media_folder: public/images
