@@ -55,6 +55,17 @@ export default class CustomDocument extends Document {
         </Head>
         <body>
           <Main />
+          <script>
+  if ((window as any).netlifyIdentity) {
+    (window as any).netlifyIdentity.on("init", (user: any) => {
+      if (!user) {
+        (window as any).netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    })
+  }
+</script>
         </body>
         <NextScript />
       </Html>
