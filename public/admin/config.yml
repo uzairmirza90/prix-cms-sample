@@ -3,7 +3,7 @@ backend:
   repo: uzairmirza90/prix-cms-sample
   branch: main # Branch to update (optional; defaults to master)
 media_folder: public/images/posts
-public_folder: /images
+public_folder: /images/posts
 collections:
   - name: 'blogs'
     label: 'Blogs'
