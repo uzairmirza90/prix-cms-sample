@@ -1,11 +1,13 @@
 ---
 title: Blog sample
-date: 'March 8, 2021'
+date: March 8, 2021
+excerpt: blog sample description
+cover_image: /images/img4.jpg
 ---
 **B﻿old Text**\
 *I﻿talic Text*
 
-`c﻿onst react = 'sample';`````
+\`c﻿onst react = 'sample';\`
 
 ``
 
