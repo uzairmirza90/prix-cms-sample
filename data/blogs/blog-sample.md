@@ -2,7 +2,7 @@
 title: Blog sample
 date: March 8, 2021
 excerpt: blog sample description
-cover_image: '/images/posts/img5.jpg'
+cover_image: /images/posts/img3.jpg
 ---
 **B﻿old Text**\
 *I﻿talic Text*
