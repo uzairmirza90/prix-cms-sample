@@ -57,8 +57,10 @@ export default class CustomDocument extends Document {
           <Main />
           <script>
   if ((window as any).netlifyIdentity) {
-    (window as any).netlifyIdentity.on("init", (user: any) => {
+    // eslint-disable-next-line  @typescript-eslint/no-explicit-any
+    (window as any).netlifyIdentity.on("init", (user: any) => { 
       if (!user) {
+        // eslint-disable-next-line  @typescript-eslint/no-explicit-any
         (window as any).netlifyIdentity.on("login", () => {
           document.location.href = "/admin/";
         });
