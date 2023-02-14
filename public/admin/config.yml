@@ -13,5 +13,5 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Date', name: 'date', widget: 'string' }
       - { label: 'Description', name: 'excerpt', widget: 'string'}
-      - { label: 'Cover Image', name: 'cover_image', widget: 'string'}
+      - { label: 'Cover Image', name: 'cover_image', widget: 'image'}
       - { label: 'Body', name: 'body', widget: 'markdown' }
