@@ -1,6 +1,6 @@
 ---
 title: Blog sample
-date: 2023-02-14T13:08:23.486Z
+date: 'March 8, 2021'
 ---
 **B﻿old Text**\
 *I﻿talic Text*
